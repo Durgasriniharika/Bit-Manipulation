@@ -1,0 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+//multipiy and divide operations
+int main(){
+    int n;
+    n=n >> 1; // for multiplication
+    n=n << 1; // for division
+}
