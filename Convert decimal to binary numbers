@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void printBinary(int num){
+    for(int i=31;i>=0;i--){
+        int mask=1<<i;
+        if((num & mask)>0){
+            cout<<1;
+        }
+        else{
+            cout<<0;
+        }
+    }
+    cout<<endl;
+}
+int main(){
+    int num=10;
+    printBinary(num);
+}
+
