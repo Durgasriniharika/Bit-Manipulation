@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+char UpperToLower(char A){
+    int mask=(1<<5);
+    A = A | mask;
+    return A;
+}
+int main(){
+    char c=UpperToLower('A');
+    cout<<c<<endl;
+}
