@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    //int n;
+    //cin>>n;
+    long long n=157;
+    cout<<sizeof(int)<<endl;
+    int range=(1 << 31)-1;
+    cout<<range<<endl;
+}
