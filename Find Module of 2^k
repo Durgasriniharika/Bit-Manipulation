@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+//modulo of 2^k (only for 2 powers)
+using namespace std;
+int main(){
+    int n,k;
+    cin>>n>>k;
+    //n % (2^k)-->2^3=8-->k=3, x=8
+    int mask=(1<<k)-1;
+    int rem=n & mask;
+    cout<<rem<<endl;
+}
