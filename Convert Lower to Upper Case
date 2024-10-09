@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+char lowerToUpper(char a){
+    int mask=~(1<<5);
+    a = a & mask;
+    return a;
+}
+int main(){
+    char c=lowerToUpper('a');
+    cout<<c<<endl;
+}
