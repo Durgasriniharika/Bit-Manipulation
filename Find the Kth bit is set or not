@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+//find the kth set bit
+using namespace std;
+int main(){
+    int n,k;
+    cin>>n>>k;
+    int mask=(1<<k);
+    if(n & mask){
+        cout<<"YES"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
+}
